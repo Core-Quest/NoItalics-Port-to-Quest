@@ -1,0 +1,76 @@
+{
+  "config": {
+    "sharedDir": "shared",
+    "dependenciesDir": "extern",
+    "info": {
+      "name": "NoItalics",
+      "id": "noitalics",
+      "version": "0.1.0",
+      "url": null,
+      "additionalData": {}
+    },
+    "dependencies": [
+      {
+        "id": "beatsaber-hook",
+        "versionRange": "*",
+        "additionalData": {
+          "extraFiles": [
+            "src/inline-hook"
+          ]
+        }
+      },
+      {
+        "id": "codegen",
+        "versionRange": "*",
+        "additionalData": {}
+      }
+    ],
+    "additionalData": {}
+  },
+  "restoredDependencies": [
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "*",
+        "additionalData": {
+          "extraFiles": [
+            "src/inline-hook"
+          ]
+        }
+      },
+      "version": "2.3.1"
+    },
+    {
+      "dependency": {
+        "id": "modloader",
+        "versionRange": "^1.2.0",
+        "additionalData": {}
+      },
+      "version": "1.2.3"
+    },
+    {
+      "dependency": {
+        "id": "libil2cpp",
+        "versionRange": ">=0.1.2<0.3.0",
+        "additionalData": {}
+      },
+      "version": "0.2.2"
+    },
+    {
+      "dependency": {
+        "id": "codegen",
+        "versionRange": "*",
+        "additionalData": {}
+      },
+      "version": "0.14.0"
+    },
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "^2.0.0",
+        "additionalData": {}
+      },
+      "version": "2.3.0"
+    }
+  ]
+}
