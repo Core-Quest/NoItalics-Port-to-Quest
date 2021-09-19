@@ -1,6 +1,6 @@
-# #{name}
+## NoItalics Quest
 
-#{description}
+Port that makes your menu unslanted
 
 ## Credits
 
